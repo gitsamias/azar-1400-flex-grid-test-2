@@ -35,7 +35,6 @@ ul li{
     padding: 10px;
     margin: 0 auto;
     justify-content: center;
-    background-color: navy;
     box-sizing: border-box;
 }
 img{
@@ -46,7 +45,6 @@ img{
     width: 80%;
     margin: 0 auto;
     position: relative;
-    background-color: white;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -59,7 +57,6 @@ img{
 }
 .secards{
     width: 100%;
-    background-color: yellowgreen;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +67,6 @@ img{
 .art1{
     padding :5px;
     width: 100%;
-    background-color: wheat;
     margin-bottom: 5px;
     display: flex;
     flex-direction: row-reverse;
@@ -81,7 +77,6 @@ img{
 .secaval{
     width: 50%;
     height: 90%;
-    background-color: white;
     margin-left: 5px;
     display: flex;
     align-items: center;
@@ -90,7 +85,7 @@ img{
 }
 .secdovom p{
     padding:20px ;
-    color: white;
+    color: black;
 }
 .ar1{
     padding: 25px;
@@ -110,14 +105,12 @@ img{
 .secdovom{
     width: 50%;
     height: 90%;
-    background-color: navy;
 }
 .art2{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     margin-top: 5px;
-    width: 100%;
-    background-color: wheat; 
+    width: 100%; 
     grid-column-gap: 10px;
     grid-row-gap : 10px;
     padding:10px ;
@@ -133,4 +126,7 @@ img{
     height: 100px;
     margin-top: 5px;
 }
+p{
+    color : black;
 
+}
